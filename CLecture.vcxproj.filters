@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.c">
+    <ClCompile Include="3.2.DataType.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0.HelloWorld.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.4.StdioPrint.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
