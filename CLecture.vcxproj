@@ -142,6 +142,8 @@
     <ClCompile Include="3.2.DataType.c" />
     <ClCompile Include="0.HelloWorld.c" />
     <ClCompile Include="4.4.StdioPrint.c" />
+    <ClCompile Include="4.4.StdioScanf.c" />
+    <ClCompile Include="5.1.Operator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
