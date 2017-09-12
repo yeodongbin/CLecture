@@ -15,19 +15,43 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3.2.DataType.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="0.HelloWorld.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4.4.StdioPrint.c">
+    <ClCompile Include="3.1.DataType.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4.4.StdioScanf.c">
+    <ClCompile Include="3.2.StdioScanf.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="5.1.Operator.cpp">
+    <ClCompile Include="2.StdioPrint.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8.Array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.Function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.Iteration.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.Conditional_Statement.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.1.Operator.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.1.Pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.2.PointerVariable.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.3.PointerNeeds.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10.1.Array_Pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

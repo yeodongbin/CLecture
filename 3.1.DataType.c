@@ -11,16 +11,23 @@
 //float 32
 //double 64
 //long double 64~
-
-#include <stdio.h>
-#define PI 3.141592 //값 상수
-#define WRITER "Dennis Ritchie"//문자 상수
+//
+//#include <stdio.h>
+//#define PI 3.141592 //값 상수
+//#define WRITER "Dennis Ritchie"//문자 상수
 //
 //int main()
 //{
 //	//변수 만들기
+//  //예약어 (reserved word, keyword) , 식별자(identifier)
 //	//자료형 변수명(표현식) = 값
+//  
 //	char ch1 = 'a';
+//  char string1[20] = "strawberry";
+//
+////string1 = "banana";
+////함수의 사용이 필요
+//  strcpy(string1, "banana");
 //
 //	char ch2 = 10;
 //	short sht1 = 100;
@@ -68,4 +75,5 @@
 //첫글자는 반드시 영문
 //특수문자 사용 불가
 //한글 사용 안됨
+//예약어 사용 불가 
 //명명 규칙(헝가리안 표기법)

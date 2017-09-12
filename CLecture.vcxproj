@@ -139,11 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="3.2.DataType.c" />
+    <ClCompile Include="10.1.Array_Pointer.c" />
+    <ClCompile Include="3.1.DataType.c" />
     <ClCompile Include="0.HelloWorld.c" />
-    <ClCompile Include="4.4.StdioPrint.c" />
-    <ClCompile Include="4.4.StdioScanf.c" />
-    <ClCompile Include="5.1.Operator.cpp" />
+    <ClCompile Include="2.StdioPrint.c" />
+    <ClCompile Include="3.2.StdioScanf.c" />
+    <ClCompile Include="4.1.Operator.c" />
+    <ClCompile Include="5.Conditional_Statement.c" />
+    <ClCompile Include="6.Iteration.c" />
+    <ClCompile Include="7.Function.c" />
+    <ClCompile Include="8.Array.c" />
+    <ClCompile Include="9.1.Pointer.c" />
+    <ClCompile Include="9.2.PointerVariable.c" />
+    <ClCompile Include="9.3.PointerNeeds.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
