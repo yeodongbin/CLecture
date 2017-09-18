@@ -33,15 +33,6 @@
     <ClCompile Include="7.Function.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6.Iteration.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5.Conditional_Statement.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4.1.Operator.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="9.1.Pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -52,6 +43,24 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10.1.Array_Pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.1.Conditional_Stat_if.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.2.Conditional_Stat_switch.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.1.Operator-.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2.BitOperator_Etc-.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.1.Iteration.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.2.NestedIteration.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
