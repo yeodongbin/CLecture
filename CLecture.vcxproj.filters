@@ -54,13 +54,13 @@
     <ClCompile Include="6.1.Iteration.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6.2.NestedIteration-.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7.Function-.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="4.2.BitOperator_Etc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.2.NestedIteration.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.Function.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
