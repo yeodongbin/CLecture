@@ -1,6 +1,7 @@
 //선언 정의 호출
 
 // 함수명, 매개변수 (argument), 반환형(return)
+
 //
 //#include <stdio.h>
 //
