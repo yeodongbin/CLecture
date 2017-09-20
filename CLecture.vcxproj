@@ -140,6 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10.1.Array_Pointer.c" />
+    <ClCompile Include="10.2.FunctionArray-.c" />
+    <ClCompile Include="17.1.Struct.c" />
+    <ClCompile Include="17.2.AppliedStruct-.c" />
     <ClCompile Include="3.1.DataType.c" />
     <ClCompile Include="0.HelloWorld.c" />
     <ClCompile Include="2.StdioPrint.c" />
@@ -155,6 +158,7 @@
     <ClCompile Include="9.1.Pointer.c" />
     <ClCompile Include="9.2.PointerVariable.c" />
     <ClCompile Include="9.3.PointerNeeds.c" />
+    <ClCompile Include="lotto.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

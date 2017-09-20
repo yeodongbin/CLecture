@@ -63,5 +63,17 @@
     <ClCompile Include="7.Function.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="lotto.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17.1.Struct.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17.2.AppliedStruct-.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10.2.FunctionArray-.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
