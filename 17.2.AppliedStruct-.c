@@ -50,3 +50,5 @@
 //	printf("학번 : %d\n", ps.num);
 //	printf("학점 : %.2f\n", ps.grade);
 //}
+
+//563 - 5
