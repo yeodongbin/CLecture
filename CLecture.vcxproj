@@ -101,6 +101,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -144,6 +145,12 @@
     <ClCompile Include="12.1.StingNPointer.c" />
     <ClCompile Include="12.2.StringOper-.c" />
     <ClCompile Include="13.ValueAreaNData-.c" />
+    <ClCompile Include="14.1.2-Array.c" />
+    <ClCompile Include="14.2.PointerArray.c" />
+    <ClCompile Include="14.3.ProB.2Array.c" />
+    <ClCompile Include="15.2.3.voidPointer.c" />
+    <ClCompile Include="15.2.FunctionPointer.c" />
+    <ClCompile Include="15.1.2D-Pointer.c" />
     <ClCompile Include="17.1.Struct.c" />
     <ClCompile Include="17.2.AppliedStruct-.c" />
     <ClCompile Include="3.1.DataType.c" />
@@ -162,6 +169,7 @@
     <ClCompile Include="9.2.PointerVariable.c" />
     <ClCompile Include="9.3.PointerNeeds.c" />
     <ClCompile Include="lotto.c" />
+    <ClCompile Include="NumberMove_p281_3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
