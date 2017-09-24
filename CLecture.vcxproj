@@ -142,6 +142,7 @@
     <ClCompile Include="10.1.Array_Pointer.c" />
     <ClCompile Include="10.2.FunctionArray-.c" />
     <ClCompile Include="12.1.StingNPointer.c" />
+    <ClCompile Include="12.2.StringOper-.c" />
     <ClCompile Include="13.ValueAreaNData-.c" />
     <ClCompile Include="17.1.Struct.c" />
     <ClCompile Include="17.2.AppliedStruct-.c" />

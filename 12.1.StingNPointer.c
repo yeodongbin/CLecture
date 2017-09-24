@@ -3,14 +3,14 @@
 // char str[80] = "yeodongbin"; //str은 배열명, 문자열 상수 주소를 저장하고 있는 변수명
 // p344
 // 문자열 상수는 이상하게 저장된다. 'y'값의 주소만을 포인터 변수로 저장 -> pch[0] = 't'불가
-
-#include <stdio.h>
-#include <stdlib.h>
-
-void my_gets(char *);
-
-int main(void)
-{
+//
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//void my_gets(char *);
+//
+//int main(void)
+//{
 	//printf("주소값 : %p\n", "yeodongbin");           // 주소값 
 	//printf("첫 번째 문자 : %c\n", *"yeodongbin");     //간접참조 연산 //'y' 주소값만 갖는다.
 	//printf("두 번째 문자 : %c\n", *("yeodongbin"+1)); //포인터 연산식 -> 주소값 연산식
@@ -34,7 +34,7 @@ int main(void)
 	////같은 문자열 상수는 여러 번 사용해도 하나만 저장된다.
 	////scanf %s
 
-	char str[80];
+	//char str[80];
 
 	//printf("\n문자열을 입력 : ");
 	//scanf("%s", str); //공백문자V, 탭문자(\t), 개행문자(\n)까지 ->공백저장 불가
@@ -45,11 +45,34 @@ int main(void)
 	////scanf 함수는 문자열을 저장할 배열의 크기를 모름 -> 오버플로우 가능
 	//// scanf_s 등장
 
-	printf("\n공백포함 문자열을 입력 : "); //
-	gets(str); //배열명으로 주고 함수 호출 \n 까지 저장->\0변경해서 버퍼사용하여 저장
-	printf("%s\n", str); //get_s 등장
-	
-	return 0;
+	////gets 
+	//printf("\n공백포함 문자열을 입력 : "); //
+	//gets(str); //배열명으로 주고 함수 호출 \n 까지 저장->\0변경해서 버퍼사용하여 저장
+	//printf("%s\n", str); //get_s 등장
+
+	//fgets 사용
+	//printf("\n공백포함 문자열을 입력 : "); //
+	//fgets(str,sizeof(str),stdin); //개행문자(\n) 까지 저장 + \0
+	//str[strlen(str) - 1] = '\0';//개행문자(\n) 문자 제거
+	//printf("%s\n", str); 
+
+	//버퍼 stdin stdout
+	//int age;
+	//char name[20];
+	//printf("나이입력 : ");
+	//scanf("%d", &age); // \n 까지만 가져감
+	//getchar(); //= scanf("%*c"); fgetc(stdin); fflush(stdin);//완전 버퍼비움
+	//printf("이름입력 : ");
+	//gets(name); // \n까지 버퍼에서 가져감
+	//printf("나이 : %d, 이름 : %s\n", age, name);
+
+	//char str[80] = "strawberry juice";
+	//char *pstr = "banana";
+	//puts(str); //개행
+	//fputs(pstr, stdout); //개행 없음
+	//puts("milk");
+
+	/*return 0;
 }
 
 void my_gets(char *pstr)
@@ -62,4 +85,4 @@ void my_gets(char *pstr)
 		pstr++;
 	}
 	*pstr = '\0';
-}
+}*/

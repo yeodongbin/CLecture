@@ -26,6 +26,7 @@
 //	double* pdou2 = &dou2;
 //	int* pin2;
 //	pin2 = (int*)pdou2;
+
 //
 //	printf("%.1lf \n", dou2);
 //	printf("%.1lf \n", *pdou2);
