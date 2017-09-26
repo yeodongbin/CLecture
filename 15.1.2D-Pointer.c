@@ -35,7 +35,7 @@
 //	//print_str(ptr_ary, count);                     // 포인터배열의 주소를 넘김 **
 //	////포인터 배열값 출력 (주소)
 //	//printf("%10s\t", ptr_ary[0]); //%s 변수가 가지고 있는 주소에 다가가서 값을 표시
-//	//printf("%10s\t", ptr_ary[1]);
+//	//printf("%10s\t", ptr_ary[1]); 
 //	//printf("%10s\t", ptr_ary[2]);
 //	//printf("%10s\n", ptr_ary[3]);
 //

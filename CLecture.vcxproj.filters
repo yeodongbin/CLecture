@@ -69,22 +69,13 @@
     <ClCompile Include="17.1.Struct.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="17.2.AppliedStruct-.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="10.2.FunctionArray-.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="13.ValueAreaNData-.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="12.1.StingNPointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="12.2.StringOper-.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="NumberMove_p281_3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="14.1.2-Array.c">
@@ -103,6 +94,27 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="15.2.3.voidPointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13.1.DataMove.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13.2.FunctionDataShare.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17.2.7.typedef.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17.2.1.StructPointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17.2.4.SelfReferenceStuct.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16.1.DynamicAllocation.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16.2.DAFunctionApplication.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
