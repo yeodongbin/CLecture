@@ -24,9 +24,6 @@
     <ClCompile Include="3.2.StdioScanf.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2.StdioPrint.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="8.Array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -78,9 +75,6 @@
     <ClCompile Include="12.2.StringOper-.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14.1.2-Array.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="14.2.PointerArray.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -115,6 +109,24 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="16.2.DAFunctionApplication.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17.2.8.LinkedList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14.1.2.Array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2.3.PrintValues.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2.1.StdioPrint.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2.4.INT_RealNumber.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18.1.FileInputOutput.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
