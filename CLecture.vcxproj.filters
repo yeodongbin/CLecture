@@ -129,5 +129,8 @@
     <ClCompile Include="18.1.FileInputOutput.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4.3.Ex_Operator.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
