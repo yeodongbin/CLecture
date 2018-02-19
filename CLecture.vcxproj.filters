@@ -132,5 +132,17 @@
     <ClCompile Include="4.3.Ex_Operator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11.2.BufferInputFunc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11.1.ASCII.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11.3.GetcharFunc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11.4.fflush.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

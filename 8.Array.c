@@ -2,49 +2,50 @@
 //요소사용  ary[0] = 10;
 //초기화 int ary[5] = {1,2,3,4,5};
 //
-//#include <stdio.h>
-//
-//int main(void)
-//{
-//	int ary[5];                // int형 요소 5개의 배열 선언
-//
-//	ary[0] = 10;               // 첫 번째 배열 요소에 10 대입
-//	ary[1] = 20;               // 두 번째 배열 요소에 20 대입
-//	ary[2] = ary[0] + ary[1];  // 첫 번째와 두 번째 요소를 더해 세 번째 저장
-//	scanf("%d", &ary[3]);      // 키보드로 네 번째 요소에 입력
-//
-//	printf("%d\n", ary[2]);    // 세 번째 배열 요소 출력
-//	printf("%d\n", ary[3]);
-//	printf("%d\n", ary[4]);    // 마지막 배열 요소는 쓰레기값
-//
-//	return 0;
-//}
-//
-//#include <stdio.h>
-//
-//int main(void)
-//{
-//	int ary1[5] = { 1, 2, 3, 4, 5 };               // int형 배열 초기화
-//	int ary2[5] = { 1, 2, 3 };                     // 초깃값이 적은 경우 0 초기화
-//	int ary3[] = { 1, 2, 3 };                      // 배열 요소 개수가 생략된 경우
-//	double ary4[5] = { 1.0, 2.1, 3.2, 4.3, 5.4 };  // double형 배열 초기화
-//	char ary5[5] = { 'a', 'p', 'p', 'l', 'e' };    // char형 배열 초기화
-//	int count;
-//
-//	ary1[0] = 10;
-//	ary1[1] = 20;
-//	ary1[2] = 30;
-//	ary1[3] = 40;
-//	ary1[4] = 50;
-//
-//	//ary1[5] = { 1, 2, 3, 4, 5 };  X
-//	count = sizeof(ary1);
-//	count = sizeof(ary1[0]);
-//
-//	return 0;
-//}
+#include <stdio.h>
+
+int main(void)
+{
+	int ary[5];                // int형 요소 5개의 배열 선언
+
+	ary[0] = 10;               // 첫 번째 배열 요소에 10 대입
+	ary[1] = 20;               // 두 번째 배열 요소에 20 대입
+	ary[2] = ary[0] + ary[1];  // 첫 번째와 두 번째 요소를 더해 세 번째 저장
+	scanf("%d", &ary[3]);      // 키보드로 네 번째 요소에 입력
+
+	printf("%d\n", ary[2]);    // 세 번째 배열 요소 출력
+	printf("%d\n", ary[3]);
+	printf("%d\n", ary[4]);    // 마지막 배열 요소는 쓰레기값
+
+	return 0;
+}
+
+#include <stdio.h>
+
+int main(void)
+{
+	int ary1[5] = { 1, 2, 3, 4, 5 };               // int형 배열 초기화
+	int ary2[5] = { 1, 2, 3 };                     // 초깃값이 적은 경우 0 초기화
+	int ary3[] = { 1, 2, 3 };                      // 배열 요소 개수가 생략된 경우
+	double ary4[5] = { 1.0, 2.1, 3.2, 4.3, 5.4 };  // double형 배열 초기화
+	char ary5[5] = { 'a', 'p', 'p', 'l', 'e' };    // char형 배열 초기화
+	int count;
+
+	ary1[0] = 10;
+	ary1[1] = 20;
+	ary1[2] = 30;
+	ary1[3] = 40;
+	ary1[4] = 50;
+
+	//ary1[5] = { 1, 2, 3, 4, 5 };  X
+	count = sizeof(ary1);
+	count = sizeof(ary1[0]);
+
+	return 0;
+}
 
 //연습문제 p237-3 
+//버블정렬
 //삽입 정렬
 //#include <stdio.h>
 //void insertionSort(int data[], int n);
@@ -152,3 +153,4 @@
 //222 3
 //237 4
 //249 3
+// 피보나츠 수열을 배열로
