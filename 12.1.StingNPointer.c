@@ -85,4 +85,38 @@ void my_gets(char *pstr)
 		pstr++;
 	}
 	*pstr = '\0';
-}*/
+}
+
+
+#include <stdio.h>
+
+void my_get(char* str, int size);
+int main(void)
+{
+	char str[30];
+	int size = sizeof(str) / sizeof(str[0]);
+
+	my_get(str, size);
+
+	//printf("%c", ch);
+	return 0;
+}
+
+void my_get(char* str, int size)
+{
+	int i = 0;
+	//printf("input: ");
+	while (i < size)
+	{
+		str[i] = getchar();
+		if (str[i] == '\n')
+		{
+			str[i + 1] = '\0';
+			break;
+		}
+		i++;
+	}
+	printf("%s", str);
+}
+
+*/
