@@ -19,8 +19,6 @@ int main(void)
 	}
 
 
-
-
 	int res;                     // scanf 함수의 반환값을 저장할 변수
 	char ch;                     // 문자를 입력할 변수
 

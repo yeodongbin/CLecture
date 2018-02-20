@@ -9,7 +9,7 @@
 // 배열명이 나타내는 주소값은 상수다
 // ary++ (x)
 // pa++ (0)
-//
+//p292s
 #include <stdio.h>
 
 int main(void)
@@ -44,7 +44,8 @@ int main(void)
 	printf("sizeof Pointer : %d\n", sizeof(pary));
 	printf("sizeof Array   : %d\n", sizeof(ary));
 
-
+	
 	return 0;
 }
+//p299
 

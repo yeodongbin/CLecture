@@ -21,10 +21,11 @@ void print_ary(int *pa)
 	for (i = 0; i < 5; i++)
 	{
 		printf("%d\t", pa[i]); //포인터를 마치 배열처럼 활용한다.
-		//2
 		printf("%d\n", *(pa+i)); //포인터를 마치 배열처럼 활용한다.
 	}
 }
+
+
 
 #include <stdio.h>
 
