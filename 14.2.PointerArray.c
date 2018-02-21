@@ -2,17 +2,17 @@
 //포인터 배열은 포인터 연산을 통해 2차원 배열처럼 쓸수 있다.
 int main(void)
 {
-	//문자열과 주소
-	printf("주소값 : %p\n", "mango");               // 주소값 출력
-	printf("첫 번째 문자 : %c\n", *"mango");        // 간접참조 연산
-	printf("두 번째 문자 : %c\n", *("mango" + 1));  // 포인터 연산식
-	printf("세 번째 문자 : %c\n", "mango"[2]);      // 배열 표현식
+	////문자열과 주소
+	//printf("주소값 : %p\n", "mango");               // 주소값 출력
+	//printf("첫 번째 문자 : %c\n", *"mango");        // 간접참조 연산
+	//printf("두 번째 문자 : %c\n", *("mango" + 1));  // 포인터 연산식
+	//printf("세 번째 문자 : %c\n", "mango"[2]);      // 배열 표현식
 
-	//문자열과 주소 2
-	char *dessert = "apple";                     // 포인터에 문자열 초기화
-	printf("오늘 후식은 %s입니다.\n", dessert);  // 문자열 출력
-	dessert = "banana";                          // 새로운 문자열 대입
-	printf("내일 후식은 %s입니다.\n", dessert);  // 바뀐 문자열 출력
+	////문자열과 주소 2
+	//char *dessert = "apple";                     // 포인터에 문자열 초기화
+	//printf("오늘 후식은 %s입니다.\n", dessert);  // 문자열 출력
+	//dessert = "banana";                          // 새로운 문자열 대입
+	//printf("내일 후식은 %s입니다.\n", dessert);  // 바뀐 문자열 출력
 
 	//시작
 	char *pary[5];                // 포인터 배열 선언
