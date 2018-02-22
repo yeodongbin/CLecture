@@ -81,12 +81,6 @@
     <ClCompile Include="14.3.ProB.2Array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="15.2.FunctionPointer.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15.1.2D-Pointer.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="15.2.3.voidPointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -144,7 +138,16 @@
     <ClCompile Include="14.1.2DoubleArray.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="18.2.BinaryFile.c">
+    <ClCompile Include="15.1.1.2D-Pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15.2.1.FunctionPointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15.1.2.2D-PtrEx1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15.1.3.2D-PtrEx2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
