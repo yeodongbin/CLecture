@@ -237,6 +237,7 @@
     <ClCompile Include="18.1.FileInputOutput.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="18.2.BinaryFile.c" />
     <ClCompile Include="2.3.PrintValues.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
