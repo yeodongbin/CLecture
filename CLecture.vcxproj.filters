@@ -150,5 +150,14 @@
     <ClCompile Include="15.1.3.2D-PtrEx2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="18.2.BinaryFile.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12.3.Ex_String.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15.1.5.ArrayPtr.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
