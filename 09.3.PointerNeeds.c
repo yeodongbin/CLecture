@@ -8,7 +8,6 @@ int main(void)
 	int a = 10, b = 20;
 
 	swap(a, b);
-
 	//pswap(&a, &b);
 	
 	printf("a: %d, b: %d\n", a, b);
@@ -20,21 +19,20 @@ void swap(int a, int b)
 {
 	int temp;
 
-	//main a != swap a °°Áö ¾Ê´Ù.
+	//main a != swap a ê°™ì§€ ì•Šë‹¤.
 	temp = a;
 	a = b;
 	b = temp;
 
-	//swap ºÒ°¡
-	//HomeWork: Æ÷ÀÎÅÍ¸¦ È°¿ëÇÏÁö ¾Ê°í swapÇÏ±â
+	//swap ë¶ˆê°€
+	//HomeWork: í¬ì¸í„°ë¥¼ í™œìš©í•˜ì§€ ì•Šê³  swapí•˜ê¸°
 }
-
 
 void pswap(int* pa, int* pb)
 {
 	int temp;
 
-	//pa = aÀÇ ÁÖ¼Ò, *pa = a°ª
+	//pa = aì˜ ì£¼ì†Œ, *pa = aê°’
 	temp = *pa;
 	*pa = *pb;
 	*pb = temp;
