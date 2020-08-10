@@ -16,7 +16,7 @@ int main(void)
 
 	printf("%c\n",'A');
 	printf("%s\n","abcdefg");
-	printf("%c�� %s�Դϴ�.\n",'1', "first");
+	printf("%cÀº %sÀÔ´Ï´Ù.\n",'1', "first");
 	
 	return 0;
 }
