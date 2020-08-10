@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	//¸ðµç ÁÖ¼Ò¿Í Æ÷ÀÎÅÍ´Â °¡¸®Å°´Â ÀÚ·áÇü°ú °ü°è¾øÀÌ Å©±â°¡ °°´Ù.
+	//ëª¨ë“  ì£¼ì†Œì™€ í¬ì¸í„°ëŠ” ê°€ë¦¬í‚¤ëŠ” ìžë£Œí˜•ê³¼ ê´€ê³„ì—†ì´ í¬ê¸°ê°€ ê°™ë‹¤.
 	char ch;
 	int in;
 	double dou;
@@ -19,8 +19,8 @@ int main(void)
 	printf("size of int    : %d Byte\n", sizeof(in));
 	printf("size of double : %d Byte\n", sizeof(dou));
 
-	// Æ÷ÀÎÅÍ´Â °¡¸®Å°´Â º¯¼öÀÇ ÇüÅÂ°¡ °°À» ¶§¸¸ ´ëÀÔÇØ¾ß ÇÕ´Ï´Ù.
-	// Çüº¯È¯À» »ç¿ëÇÑ Æ÷ÀÎÅÍÀÇ ´ëÀÔÀº ¾ðÁ¦³ª °¡´ÉÇÕ´Ï´Ù.
+	// í¬ì¸í„°ëŠ” ê°€ë¦¬í‚¤ëŠ” ë³€ìˆ˜ì˜ í˜•íƒœê°€ ê°™ì„ ë•Œë§Œ ëŒ€ìž…í•´ì•¼ í•©ë‹ˆë‹¤.
+	// í˜•ë³€í™˜ì„ ì‚¬ìš©í•œ í¬ì¸í„°ì˜ ëŒ€ìž…ì€ ì–¸ì œë‚˜ ê°€ëŠ¥í•©ë‹ˆë‹¤.
 
 	double dou2 = 3.4;
 	double* pdou2 = &dou2;
