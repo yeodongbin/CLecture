@@ -23,7 +23,6 @@ int main(void)
 			{
 				i--;
 				break;
-				
 			}
 			else
 			{
@@ -32,7 +31,7 @@ int main(void)
 		}
 	}
 
-	//»ğÀÔÁ¤·Ä
+	//Â»Ã°Ã€Ã”ÃÂ¤Â·Ã„
 	for (i = 1; i < 6; i++)
 	{
 		temp = lotto[i];
