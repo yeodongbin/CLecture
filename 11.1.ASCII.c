@@ -4,44 +4,44 @@
 
 int main(void)
 {
-	int ch;                           // intÇü º¯¼ö
+	int ch;                           // intí˜• ë³€ìˆ˜
 
-	printf("¹®ÀÚ aÀÇ ¾Æ½ºÅ° ÄÚµå°ª : %d\n", 'a');
-	printf("¾Æ½ºÅ° ÄÚµå°ªÀÌ 97ÀÎ ¹®ÀÚ : %c\n", 97);
-	printf("¹®ÀÚ »ó¼öÀÇ Å©±â : %d¹ÙÀÌÆ®\n", sizeof('a'));
+	printf("ë¬¸ìž aì˜ ì•„ìŠ¤í‚¤ ì½”ë“œê°’ : %d\n", 'a');
+	printf("ì•„ìŠ¤í‚¤ ì½”ë“œê°’ì´ 97ì¸ ë¬¸ìž : %c\n", 97);
+	printf("ë¬¸ìž ìƒìˆ˜ì˜ í¬ê¸° : %dë°”ì´íŠ¸\n", sizeof('a'));
 
-	ch = 'a';                         // ¹®ÀÚ¸¦ intÇü º¯¼ö¿¡ ´ëÀÔ
-	ch++;                             // ¾Æ½ºÅ° ÄÚµå°ª 1 Áõ°¡
-	printf("¹®ÀÚ %cÀÇ ¾Æ½ºÅ° ÄÚµå°ª : %d\n", ch, ch);
+	ch = 'a';                         // ë¬¸ìžë¥¼ intí˜• ë³€ìˆ˜ì— ëŒ€ìž…
+	ch++;                             // ì•„ìŠ¤í‚¤ ì½”ë“œê°’ 1 ì¦ê°€
+	printf("ë¬¸ìž %cì˜ ì•„ìŠ¤í‚¤ ì½”ë“œê°’ : %d\n", ch, ch);
 
-	//************ ´ë¹®ÀÚ -> ¼Ò¹®ÀÚ
-	char small, cap = 'G';                // charÇü º¯¼ö ¼±¾ð°ú ÃÊ±âÈ­
+	//************ ëŒ€ë¬¸ìž -> ì†Œë¬¸ìž
+	char small, cap = 'G';                // charí˜• ë³€ìˆ˜ ì„ ì–¸ê³¼ ì´ˆê¸°í™”
 
-	if ((cap >= 'A') && (cap <= 'Z'))     // ´ë¹®ÀÚ ¹üÀ§¶ó¸é
+	if ((cap >= 'A') && (cap <= 'Z'))     // ëŒ€ë¬¸ìž ë²”ìœ„ë¼ë©´
 	{
-		small = cap + ('a' - 'A');        // ´ë,¼Ò¹®ÀÚÀÇ Â÷ÀÌ¸¦ ´õÇØ ¼Ò¹®ÀÚ·Î º¯È¯
+		small = cap + ('a' - 'A');    // ëŒ€,ì†Œë¬¸ìžì˜ ì°¨ì´ë¥¼ ë”í•´ ì†Œë¬¸ìžë¡œ ë³€í™˜
 	}
-	printf("´ë¹®ÀÚ : %c %c", cap, '\n');  // '\n'¸¦ %c·Î Ãâ·ÂÇÏ¸é ÁÙÀÌ ¹Ù²ï´Ù.
-	printf("¼Ò¹®ÀÚ : %c\n", small);
+	
+	printf("ëŒ€ë¬¸ìž : %c %c", cap, '\n');   // '\n'ë¥¼ %cë¡œ ì¶œë ¥í•˜ë©´ ì¤„ì´ ë°”ë€ë‹¤.
+	printf("ì†Œë¬¸ìž : %c\n", small);
 
-	//************ ¹®ÀÚ ÀÔ·Â °ø¹é
+	
+	//************ ë¬¸ìž ìž…ë ¥ ê³µë°±
 	char ch1, ch2;
 
-	scanf("%c %c", &ch1, &ch2);   // µÎ °³ÀÇ ¹®ÀÚ ¿¬¼Ó ÀÔ·Â
-	printf("[%c %c]\n", ch1, ch2);  // ÀÔ·ÂµÈ ¹®ÀÚ Ãâ·Â
+	scanf("%c %c", &ch1, &ch2);   	// ë‘ ê°œì˜ ë¬¸ìž ì—°ì† ìž…ë ¥
+	printf("[%c %c]\n", ch1, ch2);  // ìž…ë ¥ëœ ë¬¸ìž ì¶œë ¥
 
 
+	//************ ë¬¸ìž ì „ìš© ìž…ì¶œë ¥
+	int ch3;                    	// ìž…ë ¥ ë¬¸ìžë¥¼ ì €ìž¥í•  ë³€ìˆ˜
 
-	//************ ¹®ÀÚ Àü¿ë ÀÔÃâ·Â
-	int ch3;                    // ÀÔ·Â ¹®ÀÚ¸¦ ÀúÀåÇÒ º¯¼ö
-
-	ch3 = getchar();            // ÇÔ¼ö°¡ ¹ÝÈ¯ÇÏ´Â ¹®ÀÚ¸¦ ¹Ù·Î ÀúÀå
-	printf("ÀÔ·ÂÇÑ ¹®ÀÚ : ");
-	putchar(ch3);               // ÀÔ·ÂÇÑ ¹®ÀÚ Ãâ·Â ¹®ÀÚ »ó¼ö, ¹®ÀÚ ¾Æ½ºÅ° ÄÚµå°ª
-	putchar('\n');             // °³Çà¹®ÀÚ Ãâ·Â
-
+	ch3 = getchar();      		// í•¨ìˆ˜ê°€ ë°˜í™˜í•˜ëŠ” ë¬¸ìžë¥¼ ë°”ë¡œ ì €ìž¥
+	printf("ìž…ë ¥í•œ ë¬¸ìž : ");
+	putchar(ch3);               	// ìž…ë ¥í•œ ë¬¸ìž ì¶œë ¥ ë¬¸ìž ìƒìˆ˜, ë¬¸ìž ì•„ìŠ¤í‚¤ ì½”ë“œê°’
+	putchar('\n');            	// ê°œí–‰ë¬¸ìž ì¶œë ¥
 
 	return 0;
 }
 
-//´ë¹®ÀÚ <-> ¼Ò¹®ÀÚ
+//ëŒ€ë¬¸ìž <-> ì†Œë¬¸ìž
