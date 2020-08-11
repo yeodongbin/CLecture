@@ -18,46 +18,7 @@
     <ClCompile Include="0.HelloWorld.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3.1.DataType.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="3.2.StdioScanf.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="8.Array.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.1.Pointer.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.2.PointerVariable.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9.3.PointerNeeds.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="10.1.Array_Pointer.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5.1.Conditional_Stat_if.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5.2.Conditional_Stat_switch.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4.1.Operator-.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6.1.Iteration.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4.2.BitOperator_Etc.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6.2.NestedIteration.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7.Function.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="lotto.c">
@@ -108,19 +69,7 @@
     <ClCompile Include="17.2.8.LinkedList.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2.3.PrintValues.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2.1.StdioPrint.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2.4.INT_RealNumber.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="18.1.FileInputOutput.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4.3.Ex_Operator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11.2.BufferInputFunc.c">
@@ -157,6 +106,57 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="15.1.5.ArrayPtr.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="02.1.StdioPrint.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="02.2.INT_RealNumber.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="02.3.PrintValues.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="03.1.DataType.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="03.2.StdioScanf.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04.1.Operator.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04.2.BitOperator_Etc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04.3.Ex_Operator.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05.1.Conditional_Stat_if.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05.2.Conditional_Stat_switch.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="06.1.Iteration.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="06.2.NestedIteration.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="07.Function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="08.Array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.1.Pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.2.PointerVariable.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09.3.PointerNeeds.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
