@@ -1,24 +1,24 @@
 //#include <stdio.h>
-////±¸±¸´Ü
+////êµ¬êµ¬ë‹¨
 //int main(void)
 //{
 //	return 0;
 //}
 
-//¹®ÀÚ º¯¼ö ¼±¾ğ ¹× Ãâ·Â 2_7
+//ë¬¸ì ë³€ìˆ˜ ì„ ì–¸ ë° ì¶œë ¥ 2_7
 //#include <stdio.h>
 //int main()
 //{
 //	char ch1 = 'A';
 //	char ch2 = 0x41;
-//	char ch3; /* ÃÊ±âÈ­ ÇÊ¿ä */
+//	char ch3; /* ì´ˆê¸°í™” í•„ìš” */
 //	printf("ch1 = %c, %d, %o, %x\n", ch1, ch1, ch1, ch1);
 //	printf("ch2 = %c, %d, %o, %x\n", ch2, ch2, ch2, ch2);
 //	printf("ch3 = %c, %d, %o, %x\n", ch3, ch3, ch3, ch3);
 //	return 0;
 //}
 
-//printfÇÔ¼ö scanf ÇÔ¼öÀÇ ¹İÈ¯°ª 2_16
+//printfí•¨ìˆ˜ scanf í•¨ìˆ˜ì˜ ë°˜í™˜ê°’ 2_16
 //#include <stdio.h>
 //int main()
 //{
@@ -33,7 +33,7 @@
 //}
 
 
-//printf() ÇÔ¼ö¿¡¼­ ÀÚ¸®¼ö ÁöÁ¤ Ãâ·Â 2_17
+//printf() í•¨ìˆ˜ì—ì„œ ìë¦¬ìˆ˜ ì§€ì • ì¶œë ¥ 2_17
 //#include <stdio.h>
 //int main()
 //{
@@ -53,8 +53,8 @@
 //}
 
 
-//¿¬½À¹®Á¦ 192- 3¹ø, 4¹ø, 196- 2¹ø
-//1. È¦¼ö Â¦¼ö ±¸ºĞÇÏ±â if
+//ì—°ìŠµë¬¸ì œ 192- 3ë²ˆ, 4ë²ˆ, 196- 2ë²ˆ
+//1. í™€ìˆ˜ ì§ìˆ˜ êµ¬ë¶„í•˜ê¸° if
 //#include <stdio.h>
 //int main()
 //{
@@ -68,14 +68,14 @@
 //	return 0;
 //}
 
-//2. °è»ê±â switch
+//2. ê³„ì‚°ê¸° switch
 //#include <stdio.h>
 //int main()
 //{
 //	char op;
 //	int operand1, operand2, result;
 //
-//	printf("Á¤¼ö 2°³¿Í ¿¬»êÀÚ(+, -, *, /, %%)¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n");
+//	printf("ì •ìˆ˜ 2ê°œì™€ ì—°ì‚°ì(+, -, *, /, %%)ë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n");
 //	printf("operand1 operator operand2: ");
 //	/*	scanf("%d %c %d", &operand1, &op, &operand2); */
 //	scanf_s("%d %c %d", &operand1, &op, 1, &operand2);
@@ -98,7 +98,7 @@
 //		result = operand1 % operand2;
 //		break;
 //	default:
-//		printf("Àß¸øµÈ ¿¬»êÀÚ¸¦ ÀÔ·ÂÇß½À´Ï´Ù!!!\n");
+//		printf("ì˜ëª»ëœ ì—°ì‚°ìë¥¼ ì…ë ¥í–ˆìŠµë‹ˆë‹¤!!!\n");
 //	}
 //	if (op == '+' || op == '-' || op == '*'
 //		|| op == '/' || op == '%')
@@ -106,28 +106,28 @@
 //	return 0;
 //}
 
-//3. 1~n Á¤¼ö °ªÀ» ±¸ÇÏ½Ã¿À while
+//3. 1~n ì •ìˆ˜ ê°’ì„ êµ¬í•˜ì‹œì˜¤ while
 //#include <stdio.h>
 //int main()
 //{
 //	int i = 1, sum = 0, n;
-//	printf("¾çÀÇ Á¤¼ö nÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+//	printf("ì–‘ì˜ ì •ìˆ˜ nì„ ì…ë ¥í•˜ì„¸ìš”: ");
 //	/*	scanf("%d", &n); */
 //	scanf_s("%d", &n);
 //	while (i <= n) {
 //		sum += i;
 //		i++;
 //	}
-//	printf("1¿¡¼­ %d±îÁö Á¤¼öÀÇ ÇÕÀº %d\n", n, sum);
+//	printf("1ì—ì„œ %dê¹Œì§€ ì •ìˆ˜ì˜ í•©ì€ %d\n", n, sum);
 //	return 0;
 //}
 //
-////4. È¦ ¼ö Â¦¼ö ÇÕ for
+////4. í™€ ìˆ˜ ì§ìˆ˜ í•© for
 //#include <stdio.h>
 //int main()
 //{
 //	int i, n, oddSum = 0, evenSum = 0;
-//	printf("¾çÀÇ Á¤¼ö nÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+//	printf("ì–‘ì˜ ì •ìˆ˜ nì„ ì…ë ¥í•˜ì„¸ìš”: ");
 //	/*	scanf("%d", &n);*/
 //	scanf_s("%d", &n);
 //	for (i = 1; i <= n; i++)
@@ -137,18 +137,18 @@
 //		else
 //			oddSum += i;
 //	}
-//	printf("\n1¿¡¼­ %d±îÁö Â¦¼öÀÇ ÇÕÀº %d", n, evenSum);
-//	printf("\n1¿¡¼­ %d±îÁö È¦¼öÀÇ ÇÕÀº %d", n, oddSum);
+//	printf("\n1ì—ì„œ %dê¹Œì§€ ì§ìˆ˜ì˜ í•©ì€ %d", n, evenSum);
+//	printf("\n1ì—ì„œ %dê¹Œì§€ í™€ìˆ˜ì˜ í•©ì€ %d", n, oddSum);
 //	return 0;
 //}
 //
 // 
-////5. ÆÑÅä¸®¾ó for
+////5. íŒ©í† ë¦¬ì–¼ for
 //#include <stdio.h>
 //int main()
 //{
 //	int i, n, fact = 1;
-//	printf("¾çÀÇ Á¤¼ö nÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+//	printf("ì–‘ì˜ ì •ìˆ˜ nì„ ì…ë ¥í•˜ì„¸ìš”: ");
 //	/*	scanf("%d", &n); */
 //	scanf_s("%d", &n);
 //	for (i = n; i >= 1; i--)
@@ -160,12 +160,12 @@
 //}
 //
 //
-////6. ¼Ò¼ö ÆÇ´Ü for
+////6. ì†Œìˆ˜ íŒë‹¨ for
 //#include <stdio.h>
 //int main()
 //{
 //	int i, n, sum = 0;
-//	printf("¾çÀÇ Á¤¼ö nÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+//	printf("ì–‘ì˜ ì •ìˆ˜ nì„ ì…ë ¥í•˜ì„¸ìš”: ");
 //	/*	scanf("%d", &n);*/
 //	scanf("%d", &n);
 //	for (i = 2; i < n; i++)

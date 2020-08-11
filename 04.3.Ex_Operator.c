@@ -8,12 +8,15 @@ int main(void)
 	hour = (int)time;
 	time -= hour;
 	time *= 60;
+	
 	min = (int)time;
 	time -= min;
 	time *= 60;
+	
 	sec = (int)time;
 	printf("%d %d %d", hour, min, sec ); 
 
+	
 	int w5000, w1000, w500, w100, w50, w10;
 	int change = 6790;
 

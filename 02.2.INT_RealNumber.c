@@ -16,7 +16,9 @@ int main(void)
 
 	printf("%c\n",'A');
 	printf("%s\n","abcdefg");
-	printf("%c�� %s�Դϴ�.\n",'1', "first");
+	printf("%c, %s\n",'1', "first");
 	
 	return 0;
 }
+// 2의보수 -> 간단하게 더하기 가능 : ex) 10 + -10 = 0
+// double 1bit(부호) 11bit(지수) 52bit(소수)
