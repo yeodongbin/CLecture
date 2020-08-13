@@ -2,17 +2,6 @@
 
 int main(void)
 {
-	
-	switch (rank)
-	{
-	case 1:
-		break;
-	case 2:
-		break;
-	default:
-		break;
-	}
-	
 	int rank = 3, m = 0;
 
 	switch (rank)

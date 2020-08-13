@@ -50,9 +50,9 @@ int main(void)
 	int ary2[4] = { 11, 12, 13, 14 };
 	int ary3[4] = { 21, 22, 23, 24 };
 	int *pary[3]; //= { ary1, ary2, ary3 };  // 포인터 배열에 각 배열명 초기화
-	pary[0] = ary1; //배열명은 상수주소
-	pary[1] = ary2; //
-	pary[2] = ary3; //
+	pary[0] = ary1;							 // 배열명은 상수주소
+	pary[1] = ary2; 
+	pary[2] = ary3; 
 
 	int i, j;                             // 반복 제어 변수
 
