@@ -21,9 +21,6 @@
     <ClCompile Include="10.1.Array_Pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="lotto.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="17.1.Struct.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -157,6 +154,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="09.3.PointerNeeds.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="problem_lotto.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p281_3_NumberMove_2Pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16.3.DynamicAllocation2DArray.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

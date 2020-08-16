@@ -1,5 +1,5 @@
 #include <stdio.h>
-int *arrayPtr();
+int* arrayPtr();
 
 int main(void)
 {
@@ -21,16 +21,16 @@ int main(void)
 	return 0;
 }
 
-int *arrayPtr()
+int* arrayPtr()
 {
 	int ary[3][4] = { { 3, 2, 3, 4 },{ 5, 6, 7, 8 },{ 9, 10, 11, 12 } };
 	int(*pa)[4];
 	int *pary;
 	int i, j;
 
-	//pa = ary;
-	pary = ary;
-	return pary;
+	pa = ary;
+	//pary = ary;
+	return pa;
 }
 
 //행렬 연산
