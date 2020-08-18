@@ -165,5 +165,34 @@
     <ClCompile Include="16.3.DynamicAllocation2DArray.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17.2.6.enum.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19-8-main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19-8-sub.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19-9-average.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19-9-input.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19-9-main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19-10-main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="19-10-line.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="19-10-point.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
